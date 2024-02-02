@@ -104,4 +104,4 @@ jobs:
             context: ./generator/jdk11/generators/office-service/
             file: ./generator/jdk11/generators/office-service/Dockerfile
             push: true
-            tags: ${{ secrets.DOCKERHUB_USERNAME }}/clockbox:latest
+            tags: ${{ inputs.username-docker }}/clockbox:latest
